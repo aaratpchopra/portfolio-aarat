@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import sanityClient from "../client";
 import { FetchImgComponentPropType } from "../Types";
 import ImageComponent from "./ImageComponent";

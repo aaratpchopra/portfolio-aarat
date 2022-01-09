@@ -1,22 +1,7 @@
-import React, { useState, useEffect } from "react";
-import sanityClient from "../client";
 import FetchImgComponent from "../components/FetchImgComponent";
 import { APDescription, APGreeting } from "../Constants";
 
 const AboutPage = () => {
-  const [images, setImages] = useState<any>(null);
-  let imageME: any;
-
-  useEffect(() => {
-    sanityClient.fetch(`*[_type == "images"]`).then((result) => {
-      setImages(result);
-    });
-  }, []);
-
-  if (images) {
-    imageME = images.filter((value: any) => value.caption === "me");
-  }
-
   return (
     <main className="relative">
       <FetchImgComponent

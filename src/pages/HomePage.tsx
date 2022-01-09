@@ -6,7 +6,7 @@ const HomePage = () => {
 
   return (
     <main className="">
-      {rand == 0 ? (
+      {rand === 0 ? (
         <FetchImgComponent
           name="MB"
           alt="Background Image"
