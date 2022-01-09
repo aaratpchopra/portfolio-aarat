@@ -17,7 +17,7 @@ export const NBLinkFour = "About Me";
 export const NBLinkFive = "";
 
 //------------------------------// PAGES CONSTANTS!!!!!-----------------------
-export const HPGreeting = "Hi, I'm Aarat Prasad Chopra";
+export const HPGreeting = "WORKS!!";
 export const APGreeting = "Hi, I'm Aarat 👋🏻";
 export const APDescription =
   "I love Software Development. I like to solve various types of problems and love how technology is evolving and want to be part of it!";
