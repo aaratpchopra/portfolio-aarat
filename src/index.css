@@ -1,0 +1,84 @@
+@import url("https://unpkg.com/@tailwindcss/typography@0.2.x/dist/typography.min.css");
+@import url("https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css");
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/utilities.min.css"); */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+.cursive {
+  font-family: "Ubuntu", cursive;
+  font-weight: 700;
+}
+
+.prose img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.home-name {
+  font-size: 150px;
+}
+
+.background {
+  background: linear-gradient(
+    270deg,
+    rgba(255, 0, 0, 0.5),
+    rgba(255, 165, 0, 0.5),
+    rgba(255, 255, 0, 0.5),
+    rgba(0, 255, 0, 0.5),
+    rgba(0, 0, 255, 0.5),
+    rgba(75, 0, 103, 0.5),
+    rgba(155, 38, 182, 0.5)
+  );
+  background-size: 1400% 1400%;
+
+  -webkit-animation: AnimationName 60s ease infinite;
+  -moz-animation: AnimationName 60s ease infinite;
+  -o-animation: AnimationName 60s ease infinite;
+  animation: AnimationName 60s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 46% 0%;
+  }
+  50% {
+    background-position: 55% 100%;
+  }
+  100% {
+    background-position: 46% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 46% 0%;
+  }
+  50% {
+    background-position: 55% 100%;
+  }
+  100% {
+    background-position: 46% 0%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 46% 0%;
+  }
+  50% {
+    background-position: 55% 100%;
+  }
+  100% {
+    background-position: 46% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 46% 0%;
+  }
+  50% {
+    background-position: 55% 100%;
+  }
+  100% {
+    background-position: 46% 0%;
+  }
+}
